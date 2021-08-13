@@ -12,10 +12,12 @@ int main() {
 	clap_1.attack("tire");
 	clap_1.takeDamage(10);
 	clap_1.statusMassage();
+	clap_1.attack("tire");
 	clap_1.takeDamage(5);
 	clap_1.statusMassage();
 	clap_1.beRepaired(5);
+	clap_1.attack("tire");
 	clap_1.statusMassage();
-	clap_1.beRepaired(5);
+	clap_1.beRepaired(6);
 	clap_1.statusMassage();
 }

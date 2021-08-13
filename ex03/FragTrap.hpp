@@ -13,5 +13,4 @@ public:
 	FragTrap &operator=( FragTrap const & );
 };
 
-
 #endif

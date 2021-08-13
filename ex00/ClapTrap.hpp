@@ -7,7 +7,9 @@ class ClapTrap {
 private:
 	std::string Name;
 	unsigned HitPoints;
+	unsigned MaxHP;
 	unsigned EnergyPoints;
+	unsigned MaxEP;
 	int AttackDamage;
 public:
 	void attack( std::string const & );

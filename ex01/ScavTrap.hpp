@@ -12,8 +12,6 @@ public:
 	ScavTrap( std::string const & );
 	ScavTrap( ScavTrap const & );
 	ScavTrap &operator=( ScavTrap const & );
-
-	void attack();
 };
 
 

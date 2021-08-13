@@ -11,7 +11,7 @@ int main() {
 	s1.takeDamage(13);
 	s3.takeDamage(0);
 	s1.beRepaired(3);
-	ScavTrap s2(s1);
+	ScavTrap s2("Leak");
 	s1.beRepaired(3);
 	s1.statusMassage();
 	s2.statusMassage();
