@@ -5,9 +5,10 @@
 #include "ScavTrap.hpp"
 
 class DiamondTrap : public ScavTrap, public FragTrap {
-protected:
+private:
 	std::string Name;
 public:
+	void whoAmI();
 	DiamondTrap();
 	~DiamondTrap();
 	DiamondTrap( std::string const & );

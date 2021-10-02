@@ -1,5 +1,10 @@
 #include "DiamondTrap.hpp"
 
+void DiamondTrap::whoAmI() {
+	std::cout << "***Who am I? I'm a <\x1b[36m" << this->Name << "\x1b[0m>"
+	" or I'm a <\x1b[32m" << ClapTrap::Name << "\x1b[0m>?***\n";
+}
+
 DiamondTrap::DiamondTrap() : ClapTrap(std::string("D14M0ND-TP") + "_clap_name", 100, 100, 30) {
 	this->Name = "D14M0ND-TP";
 	std::cout << "***\"It\" with name <\x1b[36m" << this->Name << "\x1b[0m>"

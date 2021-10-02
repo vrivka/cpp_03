@@ -39,7 +39,6 @@ ScavTrap::~ScavTrap() {
 }
 
 ScavTrap &ScavTrap::operator=( ScavTrap const &other ) {
-	this->MaxHP = other.MaxHP;
 	this->Name = other.Name;
 	this->HitPoints = other.HitPoints;
 	this->MaxHP = other.MaxHP;

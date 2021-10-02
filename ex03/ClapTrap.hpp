@@ -12,7 +12,7 @@ protected:
 	unsigned MaxEP;
 	int AttackDamage;
 public:
-	void attack( std::string const & );
+	virtual void attack( std::string const & );
 	void takeDamage( unsigned int );
 	void beRepaired( unsigned int );
 	void statusMassage();
