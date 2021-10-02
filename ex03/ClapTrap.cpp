@@ -32,7 +32,7 @@ void ClapTrap::beRepaired( unsigned int amount ) {
 
 void ClapTrap::statusMassage() {
 	std::cout << "****ClapTrap status <\x1b[32m" << this->Name << "\x1b[0m>****\n"
-	"*\tHit points:\t\t\x1b[31m" << this->HitPoints << "\x1b[0m\t*\n"
+	"*\tHit points:\t\x1b[31m" << this->HitPoints << "\x1b[0m\t*\n"
 	"*\tEnergy points:\t\x1b[33m" << this->EnergyPoints << "\x1b[0m\t*\n"
 	"*\tAttack damage:\t\x1b[36m" << this->AttackDamage << "\x1b[0m\t*\n"
 	<< std::setfill('*') << std::setw(32) << "\n";
