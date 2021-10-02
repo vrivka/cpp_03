@@ -1,4 +1,4 @@
-NAME = bsp
+NAME = testDiamondTrap
 
 SRCS =	main.cpp \
 		ClapTrap.cpp \
